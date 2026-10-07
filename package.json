@@ -1,12 +1,13 @@
 {
   "name": "codealpha-task-2-login-registration",
   "version": "1.0.0",
-  "description": "Login and Registration System - CodeAlpha Task 2",
+  "description": "Login and Registration System",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.1"
   }
 }
